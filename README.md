@@ -49,3 +49,5 @@ Limitations
 Pas complètement automatique (validation humaine obligatoire)
 Dépend de la stabilité d’Instagram et d’Ollama
 Récupération de followers limitée (Instagram bloque vite)
+
+copyrights : https://github.com/kylianthes
