@@ -16,7 +16,7 @@ Outil local gratuit qui permet de :
   ```bash
   ollama pull llama3
 ### 2. Installer le projet
-Bash# Clone le repo (ou télécharge le ZIP)
+Clone le repo (ou télécharge le ZIP)
 git clone https://github.com/tonusername/insta-prospect-ia.git
 cd insta-prospect-ia
 
