@@ -20,7 +20,7 @@ Clone le repo (ou télécharge le ZIP)
 git clone https://github.com/kylianthes/insta-prospect-ia.git
 - Dans le même terminal, tape :
   ```bash
-  cd insta-prospect-ia
+  cd (ton-chemin-d'accès)\insta-prospect-ia
 
 # Installe les dépendances
 - Tape :
