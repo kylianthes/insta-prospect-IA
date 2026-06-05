@@ -15,17 +15,19 @@ Outil local gratuit qui permet de :
 - Ouvre un terminal et tape :
   ```bash
   ollama pull llama3
-2. Installer le projet
+### 2. Installer le projet
 Bash# Clone le repo (ou télécharge le ZIP)
 git clone https://github.com/tonusername/insta-prospect-ia.git
 cd insta-prospect-ia
 
 # Installe les dépendances
 pip install -r requirements.txt
-3. Lancer l’application
-Bashstreamlit run app.py
+### 3. Lancer l’application
+- Ouvre un terminal et tape :
+  ```bash
+  streamlit run app.py
 L’application s’ouvre dans ton navigateur.
-Comment utiliser
+## Comment utiliser
 
 Connexion : Mets ton compte Instagram secondaire dans le menu de gauche.
 Récupération : Entre le username d’un compte (ex: neymarjr, un influenceur, une marque, etc.)
