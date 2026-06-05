@@ -17,16 +17,21 @@ Outil local gratuit qui permet de :
   ollama pull llama3
 ### 2. Installer le projet
 Clone le repo (ou télécharge le ZIP)
-git clone https://github.com/tonusername/insta-prospect-ia.git
-cd insta-prospect-ia
+git clone https://github.com/kylianthes/insta-prospect-ia.git
+- Dans le même terminal, tape :
+  ```bash
+  cd insta-prospect-ia
 
 # Installe les dépendances
-pip install -r requirements.txt
+- Tape :
+  ```bash
+  pip install -r requirements.txt
+
 ### 3. Lancer l’application
-- Ouvre un terminal et tape :
+- Toujours dans le m^me terminal, tape :
   ```bash
   streamlit run app.py
-L’application s’ouvre dans ton navigateur.
+L’application s’ouvre dans ton navigateur automatiquement.
 ## Comment utiliser
 
 Connexion : Mets ton compte Instagram secondaire dans le menu de gauche.
