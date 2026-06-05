@@ -1,0 +1,5 @@
+streamlit
+instagrapi
+deepface
+ollama
+requests
