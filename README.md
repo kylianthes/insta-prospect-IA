@@ -1,53 +1,33 @@
 # Insta Prospect IA Simple
 
-Outil local gratuit qui permet de :
-- Récupérer des followers d’un compte Instagram
-- Filtrer automatiquement ceux qui ont une photo de profil avec visage
-- Générer un message personnalisé avec IA (Ollama)
-- Valider et envoyer les messages manuellement
+Outil local gratuit pour récupérer des followers Instagram, les qualifier (visage sur photo) et générer des messages personnalisés avec IA.
 
-**Attention** : Utilise uniquement un **compte secondaire**. Risque de ban Instagram élevé.
+**⚠️ ATTENTION** : Utilise uniquement un **compte secondaire**. Risque élevé de ban. Limite recommandée : **15 messages/jour max**.
 
-## Installation (5 minutes)
+## Installation
 
-### 1. Installer Ollama
-- Télécharge et installe Ollama → [https://ollama.com/download](https://ollama.com/download)
-- Ouvre un terminal et tape :
-  ```bash
-  ollama pull llama3
-### 2. Installer le projet
-Clone le repo (ou télécharge le ZIP)
-git clone https://github.com/kylianthes/insta-prospect-ia.git
-- Dans le même terminal, tape :
-  ```bash
-  cd (ton-chemin-d'accès)\insta-prospect-ia
+1. Télécharge et installe **Ollama** → [ollama.com/download](https://ollama.com/download)
+2. Ouvre un terminal et tape :
+   ```bash
+   ollama pull llama3
 
-# Installe les dépendances
-- Tape :
-  ```bash
-  pip install -r requirements.txt
+Double-clique sur install.bat (ou exécute pip install -r requirements.txt)
 
-### 3. Lancer l’application
-- Toujours dans le m^me terminal, tape :
-  ```bash
-  streamlit run app.py
-L’application s’ouvre dans ton navigateur automatiquement.
-## Comment utiliser
+Lancement
+Double-clique sur lancer.bat ou tape :
+Bashstreamlit run app.py
+Utilisation
 
-Connexion : Mets ton compte Instagram secondaire dans le menu de gauche.
-Récupération : Entre le username d’un compte (ex: neymarjr, un influenceur, une marque, etc.)
-Clique sur "Récupérer des followers"
-Pour chaque profil proposé :
-Lis le message généré par l’IA
-Modifie-le si tu veux
-Clique "Envoyer" ou "Skip"
+Connecte-toi avec ton compte Instagram secondaire (sidebar)
+Onglet Récupérer Prospects → entre un username (ex: neymarjr)
+Onglet Valider & Envoyer → modifie le message et envoie
 
+Fichiers principaux
 
-Recommandation forte : Ne dépasse pas 15-20 messages par jour pour éviter le ban.
-Limitations
+app.py → Application
+install.bat → Installation
+lancer.bat → Lancement rapide
 
-Pas complètement automatique (validation humaine obligatoire)
-Dépend de la stabilité d’Instagram et d’Ollama
-Récupération de followers limitée (Instagram bloque vite)
+Limitations : Validation humaine obligatoire • Récupération limitée par Instagram
 
-copyrights : https://github.com/kylianthes
+CopyRights on GitHub : https://github.com/kylianthes/insta-prospect-ia
